@@ -14,3 +14,7 @@ int myNum = 15;
 Console.WriteLine(myNum);
 myNum = 20;
 Console.WriteLine(myNum);
+double myDoubleNum = 5.99D;
+char myLetter = "D";
+bool myBool = true;
+string myText = "Hello";

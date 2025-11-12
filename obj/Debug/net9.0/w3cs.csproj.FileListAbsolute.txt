@@ -1,0 +1,14 @@
+/home/alexander/c#/w3cs/bin/Debug/net9.0/w3cs
+/home/alexander/c#/w3cs/bin/Debug/net9.0/w3cs.deps.json
+/home/alexander/c#/w3cs/bin/Debug/net9.0/w3cs.runtimeconfig.json
+/home/alexander/c#/w3cs/bin/Debug/net9.0/w3cs.dll
+/home/alexander/c#/w3cs/bin/Debug/net9.0/w3cs.pdb
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.AssemblyInfoInputs.cache
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.AssemblyInfo.cs
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.csproj.CoreCompileInputs.cache
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.dll
+/home/alexander/c#/w3cs/obj/Debug/net9.0/refint/w3cs.dll
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.pdb
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.genruntimeconfig.cache
+/home/alexander/c#/w3cs/obj/Debug/net9.0/ref/w3cs.dll

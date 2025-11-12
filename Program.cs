@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// test/run progran by executing "dotnet run" in terminal
 Console.WriteLine("Hello, World!");
 Console.WriteLine("I am learning C#");
 Console.WriteLine(3 + 3);
@@ -15,9 +16,9 @@ Console.WriteLine(myNum);
 myNum = 20;
 Console.WriteLine(myNum);
 double myDoubleNum = 5.99D;
-// char myLetter = "D";
+char myLetter = 'D'; //Note that " and ' are different in C#. ' should be used for single character functions such as char, " for 0 or more. Nested \" / \' must be escaped
 bool myBool = true;
-string myText = "Hello";
+string myText = "Hello"; // string stores sequences of characters, surrounded by " double quotes.
 // const int myNum = 15; error
 // myNum = 20; // error
 string firstName = "Alexander ";
@@ -32,3 +33,44 @@ Console.WriteLine(x + y + z);
 int a, b, c;
 a = b = c = 50;
 Console.WriteLine(a + b + c);
+// Names must be unique, ideally descriptive for readability
+int minutesPerHour = 60; //good
+int m = 60; //ok
+/*
+int     4 byte whole numbers
+long    8 byte whole numbers
+float   4 byte fractions
+double  8 byte fractions
+bool    1 byte true/false
+char    2 byte single character, surrounded by single quotes
+string  2 byte/char, sequences surrounded by double quotes
+*/ 
+int myNumber = 100000;
+Console.WriteLine(myNumber);
+long myLNum = 15000000000L;
+Console.WriteLine(myLNum);
+float myfNum = 5.75F;
+Console.WriteLine(myfNum);
+double mydNum = 19.99D;
+Console.WriteLine(mydNum);
+bool isCSharpFun = true;
+bool isFishTasty = false;
+Console.WriteLine(isCSharpFun);
+Console.WriteLine(isFishTasty);
+char myGrade = 'B';
+Console.WriteLine(myGrade);
+
+// Typecasting
+// implicit convert smaller to larger   char → int → long → float → double
+
+int myInt = 9;
+double myDouble = myInt; // auto cast int
+Console.WriteLine(myInt);
+Console.WriteLine(myDouble);
+
+// explicit convert larger to smaller   double → float → long → int → char
+double myEDouble = 9.78;
+int myEInt = (int) myEDouble;
+Console.WriteLine(myEDouble);
+Console.WriteLine(myEInt);
+// current page: https://www.w3schools.com/cs/cs_type_casting.php

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("w3cs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53e8081ace0aef51293265e8edff21f06a7b452b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fba1ce1c7f2cd10814293ca0d366b655228ce649")]
 [assembly: System.Reflection.AssemblyProductAttribute("w3cs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("w3cs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

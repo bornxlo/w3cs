@@ -12,3 +12,4 @@
 /home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.pdb
 /home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.genruntimeconfig.cache
 /home/alexander/c#/w3cs/obj/Debug/net9.0/ref/w3cs.dll
+/home/alexander/c#/w3cs/obj/Debug/net9.0/w3cs.sourcelink.json

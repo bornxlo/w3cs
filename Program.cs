@@ -95,3 +95,12 @@ Console.WriteLine(sum2 > sum1);
 Console.WriteLine(sum1 < 150 && sum2 < 150); // checks both sums and returns false (logical and)
 Console.WriteLine(sum1 < 150 || sum2 > 150); // true if one statement is true (or)
 Console.WriteLine(!(sum1 < 150 && sum2 < 150)); // ! logical not
+
+// maths
+// Find the highetst value
+Math.Max(5, 10);
+// Find the lowest value
+Math.Min(5, 10);
+Math.Sqrt(64);
+Math.Abs(-4.7);
+Math.Round(9.99);

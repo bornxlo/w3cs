@@ -104,3 +104,8 @@ Math.Min(5, 10);
 Math.Sqrt(64);
 Math.Abs(-4.7);
 Math.Round(9.99);
+
+// Strings
+// Strings can be manipulated
+string abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+Console.WriteLine("The alphabet has " + abc.Length + " letters");

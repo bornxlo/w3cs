@@ -80,3 +80,9 @@ Console.WriteLine("Enter username:");
 string userName = Console.ReadLine();
 // Print the value of the variable
 Console.WriteLine("Username is: " + userName);
+// User input and numbers
+// Console.ReadLine() returns a string, and cannot get information from another data type, such as int. Ints must be explicitly converted
+Console.WriteLine("Enter your age:");
+// int age = Console.ReadLine(); //This explicitly gives a cannot implicitly convert error, even before running
+int age = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Your age is: " + age);

@@ -73,4 +73,10 @@ double myEDouble = 9.78;
 int myEInt = (int) myEDouble;
 Console.WriteLine(myEDouble);
 Console.WriteLine(myEInt);
-// current page: https://www.w3schools.com/cs/cs_type_casting.php
+
+// Type username and press enter
+Console.WriteLine("Enter username:");
+// Create a string variable, get user input from keyboard and store in variable
+string userName = Console.ReadLine();
+// Print the value of the variable
+Console.WriteLine("Username is: " + userName);

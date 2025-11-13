@@ -92,3 +92,6 @@ int sum1 = 100 + 50;
 int sum2 = sum1 + 250;
 int sum3 = sum1 + sum2;
 Console.WriteLine(sum2 > sum1);
+Console.WriteLine(sum1 < 150 && sum2 < 150); // checks both sums and returns false (logical and)
+Console.WriteLine(sum1 < 150 || sum2 > 150); // true if one statement is true (or)
+Console.WriteLine(!(sum1 < 150 && sum2 < 150)); // ! logical not

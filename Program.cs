@@ -109,3 +109,8 @@ string abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 Console.WriteLine("The alphabet has " + abc.Length + " letters");
 string name = string.Concat(firstName, lastName);
 Console.WriteLine(name); //Using variables declared earlier
+int w = x + y;
+string d = "10";
+string e = "20";
+string f = d + e;
+Console.WriteLine(f);

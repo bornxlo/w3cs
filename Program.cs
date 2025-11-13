@@ -86,3 +86,9 @@ Console.WriteLine("Enter your age:");
 // int age = Console.ReadLine(); //This explicitly gives a cannot implicitly convert error, even before running
 int age = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Your age is: " + age);
+
+// Operators
+int sum1 = 100 + 50;
+int sum2 = sum1 + 250;
+int sum3 = sum1 + sum2;
+Console.WriteLine(sum2 > sum1);

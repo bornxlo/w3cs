@@ -114,4 +114,12 @@ string d = "10";
 string e = "20";
 string f = d + e;
 Console.WriteLine(f);
-// https://www.w3schools.com/cs/cs_strings_interpol.php
+// Access strings
+string myString = "Hello";
+Console.WriteLine(myString[0]); //Return first letter of the string
+Console.WriteLine(myString[1]);
+Console.WriteLine(myString.IndexOf("e")); //index of the letter
+// Special characters
+string txt = "We are the so-called \"Vikings\" from the north.";
+string text = "It\'s alright";
+string tekst = "The character \\ is a backslash"

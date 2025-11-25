@@ -204,5 +204,26 @@
             j++;
         }
         while (j < 5);
+        for (int k = 0; k < 5; k++)
+        {
+            Console.WriteLine(k);
+        }
+        for (int l = 0; l <= 10; l = l + 2)
+        {
+            Console.WriteLine(l);
+        }
+        for (int o = 1; o <= 2; ++o)
+        {
+            Console.WriteLine("Outer: " + o);
+            for (int n = 1; n <= 3; n++)
+            {
+                Console.WriteLine(" Inner: " + n);
+            }
+        }
+        string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        foreach (string p in cars)
+        {
+            Console.WriteLine(p);
+        }
     }
 }

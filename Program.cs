@@ -151,6 +151,8 @@
         {
             Console.WriteLine("Good evening.");
         }
+        string result = (time < 18) ? "Good day." : "Good evening"; //should do the same
+        Console.WriteLine(result);
         time = 22;
         if (time < 10)
         {

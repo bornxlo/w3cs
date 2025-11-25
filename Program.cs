@@ -30,6 +30,10 @@
         int y = 6;
         Console.WriteLine(x + y);
         Console.WriteLine(x > y);
+        if (x > y)
+        {
+            Console.WriteLine("x is greater than y");
+        }
         Console.WriteLine(x == 5);
         int z = 50;
         Console.WriteLine(x + y + z);
@@ -138,5 +142,14 @@
         { Console.WriteLine("Not old enough to vote!");}
 
         Console.WriteLine(myAge >= votingAge);
+        int time = 20;
+        if (time < 18)
+        {
+            Console.WriteLine("Good day.");
+        }
+        else
+        {
+            Console.WriteLine("Good evening.");
+        }
     }
 }

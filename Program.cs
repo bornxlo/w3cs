@@ -221,6 +221,7 @@
             }
         }
         string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        Array.Sort(cars); //sort string alphabetically or numerically
         foreach (string p in cars)
         {
             Console.WriteLine(p);
@@ -229,6 +230,11 @@
         Console.WriteLine(cars[0]);
         cars[0] = "Opel";
         Console.WriteLine(cars.Length);
+        Array.Sort(myNums);
+        foreach (int q in myNums)
+        {
+            Console.WriteLine(q);
+        }
 
         // Other ways to make arrays
         // Create an array of four elements, and add values later
@@ -251,5 +257,38 @@
         // Add values without using new (this will cause an error)
         // cars = {"Volvo", "BMW", "Ford"};
 
+//         using System;
+// using System.Linq;
+
+// namespace MyApplication
+// {
+//   class Program
+//   {
+//     static void Main(string[] args)
+//     {
+//       int[] myNumbers = {5, 1, 8, 9};
+//       Console.WriteLine(myNumbers.Max());  // returns the largest value
+//       Console.WriteLine(myNumbers.Min());  // returns the smallest value
+//       Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+//     }
+//   }
+// }
+
+// Multidimensional arrays
+int[,] numbers = {{1, 4, 2}, {3, 6, 8}};
+Console.WriteLine(numbers[0, 2]);
+foreach (int r in numbers)
+        {
+            Console.WriteLine(r);
+        }
     }
+//     int[,] numbers = { {1, 4, 2}, {3, 6, 8} };
+
+// for (int i = 0; i < numbers.GetLength(0); i++) 
+// { 
+//   for (int j = 0; j < numbers.GetLength(1); j++) 
+//   { 
+//     Console.WriteLine(numbers[i, j]); 
+//   } 
+// }  
 }
